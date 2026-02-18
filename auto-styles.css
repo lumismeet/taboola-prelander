@@ -1,0 +1,232 @@
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Inter', sans-serif;
+    }
+
+    body {
+      background: #f3f4f6;
+      color: #1e293b;
+      line-height: 1.6;
+    }
+
+    /* .container {
+      max-width: 800px !important;
+      margin: 0 auto;
+      padding: 0 20px;
+    } */
+    .container {
+  max-width: 950px !important;
+  margin: 20px auto;
+  padding: 30px 30px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+
+    .logo-image{
+        width: 50px;
+        height: 50px;
+    }
+
+    /* NAVBAR */
+        .navbar {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 15px 60px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+            position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: white;
+        }
+
+
+    .logo {
+      font-weight: 700;
+      font-size: 18px;
+    }
+
+    .btn {
+      background: lightblue;
+      color: white;
+      padding: 10px 22px;
+      border-radius: 25px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: 0.3s ease;
+    }
+
+    .btn:hover {
+      opacity: 0.9;
+    }
+
+    /* HERO */
+    .hero {
+      text-align: center;
+      padding: 80px 0 40px;
+    }
+
+    .hero h1 {
+      font-size: 48px;
+      font-weight: 800;
+      margin-bottom: 15px;
+    }
+
+    .hero h2 {
+      font-size: 24px;
+      font-weight: 600;
+      margin-bottom: 15px;
+      color: #334155;
+    }
+
+    .hero p.meta {
+      font-size: 14px;
+      color: #64748b;
+    }
+
+    .hero .desc {
+      max-width: 700px;
+      margin: 30px auto;
+      color: #64748b;
+    }
+
+    /* IMAGE BLOCK */
+    .image-block {
+      background: #e5e7eb;
+      height: 350px;
+      width: 100%;
+      object-fit: cover;
+      border-radius: 0px;
+      margin:  auto 0;
+
+    }
+
+    h1, h2, h3 {
+  line-height: 1.1;
+}
+    /* TEXT SECTION */
+    .text-section {
+      margin-bottom: 40px;
+    }
+
+    .text-section h3 {
+      font-size: 20px;
+      font-weight: 700;
+      margin-bottom: 15px;
+    }
+
+    .text-section p {
+      color: #64748b;
+      /* margin-bottom: 15px; */
+    }
+    .steps{
+      color: #64748b;  
+    }
+    /* TWO COLUMN IMAGES */
+    .two-columns {
+      display: flex;
+      gap: 20px;
+      margin: 40px 0;
+      margin-bottom: 0px;
+      
+    }
+
+    .two-columns .box {      
+      flex: 1;
+      background: #e5e7eb;
+      height: 250px;
+      border-radius: 0px;
+      overflow: hidden;
+    }
+
+    /* OPTIONS SECTION */
+    .options {
+      background: lightblue;
+      padding: 50px 20px;
+      border-radius: 0px;
+      margin: 60px 0;
+      text-align: center;
+      color: white;
+    }
+
+    .options h3 {
+      margin-bottom: 30px;
+      font-size: 22px;
+    }
+
+    .option-grid {
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+    }
+
+    .option-card {
+      
+      height: 180px;
+      width: 100px;
+      border-radius: 6px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 600;
+      letter-spacing: 2px;
+    }
+
+    /* TESTIMONIALS */
+    .testimonials {
+      text-align: center;
+      padding: 20px 0;
+    }
+
+    .testimonials h2 {
+      font-size: 28px;
+      margin-bottom: 40px;
+    }
+
+    .testimonial-grid {
+      display: flex;
+      gap: 20px;
+    }
+
+    .testimonial {
+      flex: 1;
+      background: #ffffff;
+      padding: 10px;
+      border-radius: 0px;
+      box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+      text-align: left;
+    }
+
+    .testimonial p {
+      font-size: 14px;
+      color: #64748b;
+      margin-bottom: 15px;
+    }
+
+    .client {
+      font-weight: 600;
+      font-size: 14px;
+    }
+
+    .cta-bottom {
+      text-align: center;
+      margin: 40px 0 80px;
+    }
+
+    /* RESPONSIVE */
+    @media (max-width: 900px) {
+      .two-columns,
+      .option-grid,
+      .testimonial-grid {
+        flex-direction: column;
+      }
+
+      .hero h1 {
+        font-size: 36px;
+      }
+    }
